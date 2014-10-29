@@ -14,6 +14,7 @@
 		8693E0861A016DFD00F0593D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8693E0851A016DFD00F0593D /* Images.xcassets */; };
 		8693E0891A016DFD00F0593D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8693E0871A016DFD00F0593D /* LaunchScreen.xib */; };
 		8693E0951A016DFD00F0593D /* FacebookLoginTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8693E0941A016DFD00F0593D /* FacebookLoginTests.m */; };
+		8693E09F1A016FEC00F0593D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8693E09E1A016FEC00F0593D /* QuartzCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +41,7 @@
 		8693E08E1A016DFD00F0593D /* FacebookLoginTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FacebookLoginTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8693E0931A016DFD00F0593D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8693E0941A016DFD00F0593D /* FacebookLoginTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FacebookLoginTests.m; sourceTree = "<group>"; };
+		8693E09E1A016FEC00F0593D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +49,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8693E09F1A016FEC00F0593D /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +66,7 @@
 		8693E06C1A016DFD00F0593D = {
 			isa = PBXGroup;
 			children = (
+				8693E09E1A016FEC00F0593D /* QuartzCore.framework */,
 				8693E0771A016DFD00F0593D /* FacebookLogin */,
 				8693E0911A016DFD00F0593D /* FacebookLoginTests */,
 				8693E0761A016DFD00F0593D /* Products */,
